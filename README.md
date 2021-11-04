@@ -1,6 +1,6 @@
 # Quote Generator
 
-Solution for the **Random Quote Generator** challenge from <a href="https://devchallenges.io/challenges/8Y3J4ucAMQpSnYTwwWW8" target="_blank">Devchallenges.io</a>.
+Solution for the [Random Quote Generator Challenge](https://devchallenges.io/challenges/8Y3J4ucAMQpSnYTwwWW8) from [Devchallenges.io](https://devchallenges.io).
 
 <!-- TABLE OF CONTENTS -->
 
@@ -31,9 +31,9 @@ Fulfill user stories below:
 
 ### Demo
 
-_Find the site in action [here]()!_
+_Find the site in action [here](https://musing-pike-ae2f14.netlify.app/)!_
 
-![screenshot-random-quote](src\images\randomQuote.PNG)
+![screenshot-random-quote](src/images/randomQuote.PNG)
 
 ![screenshot-quotes-by-author](src/images/quotesByAuthor.PNG)
 
