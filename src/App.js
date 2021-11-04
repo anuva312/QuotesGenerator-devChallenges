@@ -35,32 +35,38 @@ function App() {
 
   return (
     <div className="App">
-      <div
-        className="App-header random-button"
-        onClick={() => generateRandomQuote()}
-      >
-        <span>random</span>
-        <span className="material-icons">autorenew</span>
+      <div className="App-header " onClick={() => generateRandomQuote()}>
+        <div className="random-button">
+          <span>random</span>
+          <span className="material-icons">autorenew</span>
+        </div>
       </div>
       {randomQuote ? (
         <div>
-          <div>{randomQuote.content}</div>
+          <div className="quote-content">{randomQuote.content}</div>
           <div
             className="about-quote-container"
             onClick={() => generateAuthorQuotes()}
           >
-            <div>{randomQuote.author}</div>
-            <div>{randomQuote.tags.join(", ")}</div>
+            <div className="about">
+              <div>{randomQuote.author}</div>
+              <div className="quote-tags">{randomQuote.tags.join(", ")}</div>
+            </div>
+            <div className="show-author-quotes-icon">
+              <span className="material-icons">arrow_forward</span>
+            </div>
           </div>
         </div>
       ) : authorQuotes ? (
         <div>
           {authorQuotes.map((quote) => (
-            <div>{quote.content}</div>
+            <div className="quote-content" key={quote._id}>
+              {quote.content}
+            </div>
           ))}
         </div>
       ) : (
-        <div>Spinner here</div>
+        <div id="loader"></div>
       )}
     </div>
   );

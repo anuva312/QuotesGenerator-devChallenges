@@ -1,19 +1,87 @@
 .App {
   margin: 3% 8%;
-}
-
-.App-header {
-  float: right;
-  display: flex;
-  /* justify-content: center; */
   font-family: Raleway;
   font-style: normal;
   font-weight: 500;
+}
+
+.App-header {
   font-size: 18px;
   color: #333333;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: flex-end;
+}
+.random-button {
+  display: flex;
 }
 
 .about-quote-container,
 .random-button {
   cursor: pointer;
+}
+
+.quote-content {
+  margin: 10%;
+  border: none;
+  padding: 5%;
+  border-left: 8px solid #f7df94;
+  font-size: 36px;
+  color: #000000;
+}
+
+.about-quote-container {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  min-height: 151px;
+  margin: 5% auto;
+  background-color: #333333;
+  font-weight: bold;
+  font-size: 24px;
+  color: #f2f2f2;
+}
+
+.about,
+.show-author-quotes-icon {
+  margin: auto 5%;
+}
+
+.quote-tags {
+  font-size: 14px;
+  color: #828282;
+  padding: 5% 0;
+}
+
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 120px;
+  height: 120px;
+  margin: -76px 0 0 -76px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #f7df94;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
