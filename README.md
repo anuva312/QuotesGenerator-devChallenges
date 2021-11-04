@@ -63,3 +63,4 @@ $ npm start
 ## Acknowledgements
 
 - [How To Make A Loader](https://www.w3schools.com/howto/howto_css_loader.asp)
+- [Quotable API](https://github.com/lukePeavey/quotable)
