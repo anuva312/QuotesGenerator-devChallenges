@@ -1,6 +1,6 @@
 # Quote Generator
 
-Solution for the [Random Quote Generator Challenge](https://devchallenges.io/challenges/8Y3J4ucAMQpSnYTwwWW8) from [Devchallenges.io](https://devchallenges.io).
+Solution for the [Random Quote Generator Challenge](https://legacy.devchallenges.io/challenges/8Y3J4ucAMQpSnYTwwWW8) from [Devchallenges.io](https://legacy.devchallenges.io).
 
 <!-- TABLE OF CONTENTS -->
 
